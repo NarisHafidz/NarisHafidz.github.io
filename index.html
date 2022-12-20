@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TokoNaris.com</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> Toko-Naris </a>
+
+    <nav class="navbar">
+        <a href="#home">beranda</a>
+        <a href="#features">fitur</a>
+        <a href="#products">produk</a>
+        <a href="#categories">kategori</a>
+        <a href="#review">ulasan</a>
+        <a href="#blogs">blog</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form" >
+        <input type="search" id="search-box" placeholder="cari disini..." >
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="cart-img-1.png" alt="">
+            <div class="content">
+                <h3>semangka</h3>
+                <span class="price">Rp40.000,00/-</span>
+                <span class="quantity">Total : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="cart-img-2.png" alt="">
+            <div class="content">
+                <h3>bawang</h3>
+                <span class="price">Rp30.000,00/-</span>
+                <span class="quantity">Total : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="cart-img-3.png" alt="">
+            <div class="content">
+                <h3>ayam</h3>
+                <span class="price">Rp40.000,00/-</span>
+                <span class="quantity">Total: 1</span>
+            </div>
+        </div>
+        <div class="total"> total : Rp110.000,00/- </div>
+        <a class="btn">checkout</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>masuk disini</h3>
+        <input type="email" placeholder="masukkan email" class="box">
+        <input type="password" placeholder="masukkan password" class="box">
+        <p>lupa dengan kata sandi? <a href="#">klik disini</a></p>
+        <p>tidak mempunyai akun? <a href="#">buat sekarang</a></p>
+        <input type="submit" value="masuk sekarang" class="btn">
+    </form>
+
+</header>
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Produk <span>Segar dan Produk</span> organik untuk kamu</h3>
+        <p>Halo pelanggan Toko-Naris Selamat datang di toko kami, Bingung mau cari makanan hits kekinian yang super higienis? Bebas bahan pengawet dan praktis? Kami solusinya! Ayo beli produk kami karena yang lain belum tentu berkualitas.</p>
+        <a href="#products" class="btn">Belanja Sekarang</a>
+    </div>
+
+</section>
+
+<section class="features" id="features">
+
+    <h1 class="heading"> Fitur <span>Kami</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="feature-img-1.png" alt="">
+            <h3>Makanan Segar Organik</h3>
+            <p>Makanan organik adalah jenis makanan yang diproduksi dengan metode alami atau diproses tanpa menggunakan bahan kimia, senyawa tambahan, dan rekayasa genetika!</p>
+        </div>
+
+        <div class="box">
+            <img src="feature-img-2.png" alt="">
+            <h3>Gratis Ongkir</h3>
+            <p>Kami menawarkan penawaran spesial untuk anda yaitu pengiriman gratis jika membeli produk dengan harga tertentu! </p>
+        </div>
+
+        <div class="box">
+            <img src="feature-img-3.png" alt="">
+            <h3>Kemudahan berbayar</h3>
+            <p>Kami memberikan akses khusus untuk pelanggan Toko-Naris, yaitu dengan kemudahan berbayar atau digital cash!</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="products" id="products">
+
+    <h1 class="heading"> Produk <span>Kami</span> </h1>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="product-1.png" alt="">
+                <h3>Jeruk Segar</h3>
+                <div class="price"> Rp10.000/- - Rp15.000/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a class="btn">Masukkan keranjang</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="product-2.png" alt="">
+                <h3>Bawang Segar</h3>
+                <div class="price"> Rp10.000/- - Rp15.000./- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a class="btn">Masukkan keranjang</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="product-3.png" alt="">
+                <h3>Daging Segar</h3>
+                <div class="price"> Rp95.000/- - Rp145.000/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a class="btn">Masukkan keranjang</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="product-4.png" alt="">
+                <h3>Kubis Segar</h3>
+                <div class="price"> Rp20.000/- - Rp45.000/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a class="btn">Masukkan keranjang</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="product-5.png" alt="">
+                <h3>Kentang Segar</h3>
+                <div class="price"> Rp30.000/- - Rp50.000/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a class="btn">Masukkan keranjang</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="product-6.png" alt="">
+                <h3>Alpukat Segar</h3>
+                <div class="price"> Rp8.000/- - Rp12.000/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a class="btn">Masukkan keranjang</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="product-7.png" alt="">
+                <h3>Wortel Segar</h3>
+                <div class="price"> Rp4.000/- - Rp6.000/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a class="btn">Masukkan keranjang</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="product-8.png" alt="">
+                <h3>Lemon Segar</h3>
+                <div class="price"> Rp8.000/- - Rp15.000/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a class="btn">Masukkan keranjang</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+<section class="categories" id="categories">
+
+    <h1 class="heading"> Kategori <span>Produk</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="cat-1.png" alt="">
+            <h3>Sayuran</h3>
+            <p>Diskon hingga 50%</p>
+            <a class="btn">Belanja Sekarang</a>
+        </div>
+
+        <div class="box">
+            <img src="cat-2.png" alt="">
+            <h3>Buah - buahan</h3>
+            <p>Diskon hingga 50%</p>
+            <a class="btn">Belanja Sekarang</a>
+        </div>
+
+        <div class="box">
+            <img src="cat-3.png" alt="">
+            <h3>Produk Susu</h3>
+            <p>Diskon hingga 50%</p>
+            <a class="btn">Belanja Sekarang</a>
+        </div>
+
+        <div class="box">
+            <img src="cat-4.png" alt="">
+            <h3>Daging Segar</h3>
+            <p>Diskon hingga 50%</p>
+            <a class="btn">Belanja Sekarang</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="review" id="review">
+
+    <h1 class="heading"> ulasan <span>pelanggan</span> </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="pic1.jpg" alt="">
+                <p>Aplikasi ini menawarkan fitur dengan berbagai kemudahan untuk berbelanja secara online, saya pikir ini suatu hal baru dalam hal berdagang dengan menggunkan cara online, website ini bagus pokoknya pasti banyak yang ingin mengikuti jejak pemilik website ini, karena mudah dan efisiennya cara kerja website ini.</p>
+                <h3>Naris Hafidz</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="pic2.jpg" alt="">
+                <p>Cukup bagus sebagai awal muasal pertama bagi bangsa indonesia menuju indonesia maju, menurut saya dengan adanya website ini akan mendongkrak perekonomian bangsa dan tentunya memudahkan masyarakat khususnya yang mungkin engga keluar rumah apalagi di zaman virus yang merajalela saat ini.</p>
+                <h3>Joko Widodo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="pic3.jpg" alt="">
+                <p>Menarik, Bagus, Indah dan tentunya Cakep, Mengapa saya mengatakan demikian? Ya karena website ini Bagus, dengan adanya website ini akan mengembangkan sektor industri dalam hal makanan, ya saya pikir ini menarik untuk di jadikan bisnis apalagi yang berguna bagi bangsa tetunya, Keren lah pokoknya.</p>
+                <h3>Eric Thohir</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="pic4.jpg" alt="">
+                <p>Topppp Mantappppp Is The Besttttttt, trobosan baru memang harus ada di era milenial seperti saat ini, dengan adanya website ini pasti akan membuka lapangan pekerjaan dan tentunya bisnis di sektor perdagangan dengan cakupan yang luas, Top lah pokoknya kerennnn rafathar dan rayyanza pasti suka nihhh.</p>
+                <h3>Raffi Ahmad</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> Blog <span>Kami</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="blog-1.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> Raffi Ahmad </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 10 Des, 2022 </a>
+                </div>
+                <h3>Sayuran dan Buah - buahan</h3>
+                <p>Pria yang satu ini terkenal dengan slogannya yaitu "pokokknya Top Mantap Is The Best !!!" Raffi Ahmad merupakan seorang artis yang hobi berkeliling dunia dan menikmati makanan. Dalam blog pribadinya Raffi juga menyertakan berapa budget yang sesuai dengan kantong kita direview makanan yang mereka tulis.</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="blog-2.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> Nagita Slavina </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 23 Des, 2022 </a>
+                </div>
+                <h3>Sayuran dan Buah - buahan</h3>
+                <p>Food blogger yang satu ini tidak mau mengakui bahwa dia adalah food blogger tetapi hanya kebetulan saja dia setiap malam minggu yang biasanya selalu diselingi dengan acara makan-makan. Spot tempat makan yang dia kunjungi semuanya dituangkan dalam bentuk foto dan tulisan didalam blog pribadinya.</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="blog-3.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> Cristiano Ronaldo </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 15 Des, 2022 </a>
+                </div>
+                <h3>Sayuran dan Buah - buahan</h3>
+                <p>Bagi Ronaldo makan bukan hanya sekedar kebutuhan primer yang harus dipenuhi, melainkan sudah menjadi ritual kecil tersendiri untuk menikmati hidup. Dengan makan, dia belajar mengenal rasa dan belajar untuk tahu lebih jauh mengenai bahan & bumbu makanan serta proses pembuatannya. Isi dari blognya selalu segar dan pastinya cocok buat kalian.</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> Toko-Naris <i class="fas fa-shopping-basket"></i> </h3>
+            <p>Follow dan ikuti terus update terbaru kami hanya lewat Aplikasi di bawah ini, yuk ikuti keseruannya.</p>
+            <div class="share">
+                <a href="https:wa.me/62085290327188" class="fab fa-whatsapp"></a>
+                <a href="https://www.youtube.com/@narishafidz3541"class="fab fa-youtube"></a>
+                <a href="https://www.instagram.com/narishfdz" class="fab fa-instagram"></a>
+                <a href="https:t.me/narishafidz" class="fab fa-telegram"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>Info Kontak</h3>
+            <a href="https:wa.me/62085290327188" class="links"> <i class="fas fa-phone"></i> +6285-290-327-188 </a>
+            <a href="https:wa.me/62085290327188" class="links"> <i class="fas fa-phone"></i> +6281-326-033-819 </a>
+            <a href="https:/narishafids@gmail.com" class="links"> <i class="fas fa-envelope"></i> narishafids@gmail.com </a>
+            <a href="https://goo.gl/maps/qMXrwQt2H9JHD1Ri7" class="links"> <i class="fas fa-map-marker-alt"></i> Semarang, Indonesia - 175758 </a>
+        </div>
+
+        <div class="box">
+            <h3>Klik Tautan</h3>
+            <a href="#home" class="links"> <i class="fas fa-arrow-right"></i> beranda </a>
+            <a href="#features" class="links"> <i class="fas fa-arrow-right"></i> fitur </a>
+            <a href="#products" class="links"> <i class="fas fa-arrow-right"></i> produk </a>
+            <a href="#categories" class="links"> <i class="fas fa-arrow-right"></i> kategori </a>
+            <a href="#review" class="links"> <i class="fas fa-arrow-right"></i> ulasan </a>
+            <a href="#blogs" class="links"> <i class="fas fa-arrow-right"></i> blog </a>
+        </div>
+
+        <div class="box">
+            <h3>buletin</h3>
+            <p>Dukung untuk keseruan selanjutnya</p>
+            <input type="email" placeholder="beri kami masukkan" class="email">
+            <input type="submit" value="kirim" class="btn">
+            <img src="payment.png" class="payment-img" alt="">
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span> Naris Hafidz Fahrezi </span> | all rights reserved </div>
+
+</section>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
